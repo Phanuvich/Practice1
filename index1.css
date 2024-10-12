@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: linear-gradient(180deg , rgb(73, 73, 255) , white);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head h1 {
+    font-size: 35px;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.container img{
+    position: absolute;
+    top: -48%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; 
+    z-index: -1;
+}
+.content {
+    text-align: center;
+    
+}
+
+
+button {
+    
+    width: 150px;
+    padding: 5px;
+    margin: 20px;
+    font-size: 25px;
+    color: black;
+    background-color:white;
+    border: solid 2px white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+.container{
+    background: rgb(254, 188, 64);
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    position: relative; 
+}
+
+.box1{
+    display: block;
+}
+
+.box2{
+    display: none;
+    text-align: center;
+    height: 300px;
+}
+
+.box3{
+    display: none;
+    text-align: center;
+    height: 300px;
+}
+
+.box4{
+   display: none;
+   overflow-y: scroll; /* เปิดใช้งานการเลื่อนในแนวตั้ง */
+    overflow-x: hidden; /* ซ่อนการเลื่อนในแนวนอน (ถ้าไม่ต้องการ) */
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: 400px;
+}
+
+.box4 h1{
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box4 p {
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+
+
+}
+
+#error{
+    font-size: 35px;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+h3{
+    font-size: 35px;
+
+
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+
+    
+}
+
+#score1{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.start p{
+    font-size: 35px;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: "Itim", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.start input{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.score{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+

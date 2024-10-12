@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   <nav>
+       
+        <div class="container">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png" alt="">
+            <div class="box1" id="box1">
+                <div class="head">
+                    <h1>วัดคำศัพท์ภาษาอังกฤษ</h1>
+                    
+                </div>
+                
+                
+                <div class="content">
+                    <button onclick="start()" >เริ่ม</button>
+                    <br>
+                    <button onclick="tocategory()">คลังคำศัพท์</button>
+                </div>
+            </div>
+
+            <div class="box2" id="box2">
+                <div class="score">
+                    <p id="score" class="score"></p>
+                </div>
+                <div class="start">
+                    <p id="word"></p>
+                    <input type="text" id="mean">
+                    <button onclick="checkword()" id="confirm">confirm</button>
+                    
+                </div>
+            </div>
+
+            <div class="box3" id="box3">
+                <p id="error"></p>
+                <br>
+                <span><h3>คุณติดอยู่ข้อที่ :</h3> <p id="score1"></p></span>
+                <span><p id="score1"></p></span>
+
+                <button onclick="tohome()">Home</button>
+
+            </div>
+
+            <div class="box4" id="box4">
+                <h1>คำศัพท์</h1>
+                <p>1.reasonable : "มีเหตุมีผล"
+                    <br>
+                    2.influence : "อิทธิพล"
+                    <br>
+                    3.indicate : "ระบุ" 
+                    <br>
+                    4.assess : "ประเมิน" 
+                    <br>
+                    5.acces : "เข้าถึง" 
+                    <br>
+                    6.attend : "เข้าร่วม" 
+                    <br>
+                    7.convince : "โน้มน้าว" 
+                    <br>
+                    8.encourage : "สนับสนุน" 
+                    <br>
+                    9.discourage : "ไม่สนับสนุน" 
+                    <br>
+                    10.assume : "สันนิษฐาน" 
+                    <br>
+                    11.concerning : "เกี่ยวกับ"
+                    <br>
+                    12.desire : "ความปรารถนา" 
+                    <br>
+                    13.evident : "ชัดเจน" 
+                    <br>
+                    14.result_from : "เกิดจาก" 
+                    <br>
+                    15.result_in:  "ทำให้เกิด" 
+                    <br>
+                    16.analyze : "วิเคราะห์"
+                    <br>
+                    17.progress : "ความก้าวหน้า" 
+                    <br>
+                    18.approval : "การอนุมัติ" 
+                    <br>
+                    19.optimistic : "มองโลกในเเง่ดี" 
+                    <br>
+                    20.pessimistic : "มองโลกในเเง่ร้าย" 
+                    <br>
+                    21.affect : "ส่งผลกระทบ" 
+                    <br>
+                    22.situation : "สถานการณ์" 
+                    <br>
+                    23.proposal : "ข้อเสนอ" 
+                    <br>
+                    24.organize : "จัดระเบียบ" 
+                    <br>
+                    25.initially : "ในตอนเเรก" 
+                    <br>
+                    26.eventually : "ท้ายที่สุด"
+                    <br>
+                    27.urge : "กระตุ้น" 
+                    <br>
+                    28.appropriate : "เหมาะสม"
+                    <br>
+                    29.criticism : "การวิจารณ์" 
+                    <br>
+                    30.affair : "ธุระ" 
+                    <br>
+                    31.task : "หน้าที่" 
+                    <br>
+                    32.apparently : "ปรากฎว่า"
+                    <br>
+                    33.crucial : "สำคัญ"
+                    <br>
+                    34.effective : "มีประสิทธิภาพ"
+                    <br>
+                    35.involve : "เกี่ยวข้อง"
+                    <br>
+                    36.minor : "เล็กน้อย"
+                    <br>
+                    37.major : "สำคัญ"
+                    <br>
+                    38.identify : "ระบุ" 
+                    <br>
+                    39.common : "ธรรมดา"
+                    <br>
+                    40.increase : "เพิ่มขึ้น"
+                    <br>
+                    41.decrease : "ลดลง"
+                    <br>
+                    42.plummet : "ตกลงมา"
+                    <br>
+                    43.purpose : "วัตถุประสงค์"
+                    <br>
+                    44.exist : "มีอยู่"
+                    <br>
+                    45.require : "จำเป็น"
+                    <br>
+                    46.function : "หน้าที่"
+                    <br>
+                    47.condition : "เงื่อนไข"
+                    <br>
+                    48.psychology : "จิตวิทยา"
+                    <br>
+                    49.harmful : "เป็นอันตราย"</p>
+            </div>
+            
+        </div>
+    </nav>
+    
+
+    <script src="6.js"></script>
+    
+</body>
+</html>
